@@ -1,0 +1,57 @@
+{
+	"loanCount": 2,
+	"loans": [
+		{
+			"loanId": 1,
+			"borrower": {
+				"borrowerId": "B00000001",
+				"firstname": "Bob",
+				"lastname": "Smith",
+				"address": "12 Branch st, Garden City, QLD",
+				"phone": "07 1111 2222",
+				"mobile": "0416 111 222",
+				"email": "bob.smith@someorg.com.au"
+			},
+			"resource": {
+				"resourceId": "R00000001",
+				"category": {
+					"categoryName": "Fiction"
+				},
+				"resourceType": {
+					"resourceType": "Book"
+				},
+				"resourceName": "So Long, and Thanks for All the Fish",
+				"isbn": "0-330-28498-3",
+				"author": "Douglas Adams"
+			},
+			"borrowed": "2017-12-31T13:00:00.000+0000",
+			"returned": null
+		},
+		{
+			"loanId": 2,
+			"borrower": {
+				"borrowerId": "B00000001",
+				"firstname": "Bob",
+				"lastname": "Smith",
+				"address": "12 Branch st, Garden City, QLD",
+				"phone": "07 1111 2222",
+				"mobile": "0416 111 222",
+				"email": "bob.smith@someorg.com.au"
+			},
+			"resource": {
+				"resourceId": "R00000002",
+				"category": {
+					"categoryName": "Fiction"
+				},
+				"resourceType": {
+					"resourceType": "Book"
+				},
+				"resourceName": "Manassas",
+				"isbn": "1-58182-008-9",
+				"author": "James Reasoner"
+			},
+			"borrowed": "2017-12-31T13:00:00.000+0000",
+			"returned": "2018-01-02T13:00:00.000+0000"
+		}
+	]
+}
